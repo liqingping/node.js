@@ -1,0 +1,485 @@
+[Sat Oct 17 2015 00:01:41 GMT+0800 (CST)]/rereg
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:9
+    7| </form>
+    8| <%- include footer%>
+
+title is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:12:23)
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:53:11
+    at /home/liqp/kf/zjblog 备份/models/user.js:53:17
+    at handleCallback (/home/liqp/kf/zjblog 备份/node_modules/mongodb/lib/utils.js:96:12)
+[Sat Oct 17 2015 00:02:13 GMT+0800 (CST)]/rereg
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:9
+    7| </form>
+    8| <%- include footer%>
+
+title is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:12:23)
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:52:11
+    at /home/liqp/kf/zjblog 备份/models/user.js:53:17
+    at handleCallback (/home/liqp/kf/zjblog 备份/node_modules/mongodb/lib/utils.js:96:12)
+[Sat Oct 17 2015 00:13:14 GMT+0800 (CST)]/re/1
+TypeError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| <%- include header%>
+    2| <form method="post" >
+ >> 3|     账号:<input type="text" name="user" id="user" value="<%= user.name%>" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+    5|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+    6|     <input type="submit" value="注册"></br>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:27)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:57:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:13:16 GMT+0800 (CST)]/re/1
+TypeError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| <%- include header%>
+    2| <form method="post" >
+ >> 3|     账号:<input type="text" name="user" id="user" value="<%= user.name%>" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+    5|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+    6|     <input type="submit" value="注册"></br>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:27)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:57:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:13:20 GMT+0800 (CST)]/re/1
+TypeError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| <%- include header%>
+    2| <form method="post" >
+ >> 3|     账号:<input type="text" name="user" id="user" value="<%= user.name%>" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+    5|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+    6|     <input type="submit" value="注册"></br>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:27)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:57:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:47:50 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:1
+ >> 1| <% if(reuser){%>
+    2| <%- include header%>
+    3| <form method="post" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:9:11)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:49:14 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| 
+    2| <%- include header%>
+ >> 3| <% if(reuser){%>
+    4| <form method="post" >
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:11)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:49 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:50 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:50 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:51 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:56 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 01:29:13 GMT+0800 (CST)]/rereg
+ReferenceError: /home/liqp/kf/zjblog 备份/views/rereg.ejs:13
+
+
+user is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:10)
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:31:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+[Sat Oct 17 2015 01:29:53 GMT+0800 (CST)]/re/1
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 01:30:59 GMT+0800 (CST)]/re/1
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:59:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 01:45:13 GMT+0800 (CST)]/re/1
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:59:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 01:47:08 GMT+0800 (CST)]/re/liqp
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:59:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 17:58:14 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:153:21
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:05:38 GMT+0800 (CST)]/passedit
+TypeError: undefined is not a function
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+[Sat Oct 17 2015 18:05:45 GMT+0800 (CST)]/passedit
+TypeError: undefined is not a function
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+[Sat Oct 17 2015 18:06:05 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:06:21 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:07:23 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:12 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:21 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:33 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:43 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:15:26 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:22
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:17:00 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:22
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:21:16 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:21:48 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:22:55 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:25:07 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:167:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:371:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)

@@ -1,0 +1,13 @@
+<%- include header%>
+<% posts.forEach(function(post,index){%>
+<p><h2><a href="/u/<%= post.name %>/<%= post.time%>/<%= post.title%>"><%= post.title %></a></h2></p>
+<p class="info">
+    作者:<a href="/u/<%= post.name %>"><%= post.name %></a>|
+    日期:<a href="#"><%= post.time %></a>
+</p>
+<p><%- post.post%></p>
+<p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+转载:<%=post.pz%>
+<%}%></p>
+<%})%>
+<%- include footer%>
