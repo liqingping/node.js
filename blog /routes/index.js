@@ -1,6 +1,7 @@
 var crypto=require('crypto');
 var User=require('../models/user.js');
 var Post=require('../models/post.js');
+var re=/<[^<>]+>|herf|http:|update|remove|insert/g;
 
 module.exports=function(app){
   app.get('/',function(req,res){
@@ -28,7 +29,7 @@ module.exports=function(app){
   });
   app.post('/reg',checkNotLogin);
   app.post('/reg',function(req,res){
-    var name=req.body.user,
+    var name=req.body.user.replace(re,""),
         password=req.body.password,
         repassword=req.body.repassword;
     if(name==""){
@@ -78,8 +79,8 @@ module.exports=function(app){
   });
   app.post('/rereg',checkNotLogin)
   app.post('/rereg',function(req,res){
-    var name=req.body.user,
-        qq=req.body.qq;
+    var name=req.body.user.replace(re,""),
+        qq=req.body.qq.replace(re,"");
     User.get(name,function(err,user){
       if(!user){
         req.flash('error','账号不存在');
@@ -210,7 +211,7 @@ module.exports=function(app){
   app.post('/post',checkLogin);
   app.post('/post',function(req,res){
     var currentUser=req.session.user,
-        post=new Post(currentUser.name,currentUser.qq,req.body.title,req.body.post);
+        post=new Post(currentUser.name,currentUser.qq,req.body.title.replace(re,""),req.body.post.replace(re,""));
     if(post.post==""||post.title==""){
       req.flash('error','标题或内容不能为空!');
       return res.redirect('/post');
@@ -274,7 +275,7 @@ module.exports=function(app){
     var url="/u/"+req.params.name+'/'+req.params.time+'/'+req.params.title;
     var comments={
       name:req.session.user.name,
-      connect:req.body.connect,
+      connect:req.body.connect.replace(re,""),
       time:time
     }
     if(comments.connect==""){
@@ -325,7 +326,7 @@ module.exports=function(app){
       req.flash('error','内容不能为空!');
       return res.redirect('/edit/'+req.params.name+'/'+req.params.time+'/'+req.params.title);
     }
-    Post.update(req.params.name,req.params.time,req.params.title,req.body.post,function(err){
+    Post.update(req.params.name,req.params.time,req.params.title,req.body.post.replace(re,""),function(err){
       if(err){
         req.flash('error',err);
         return res.redirect(url)
