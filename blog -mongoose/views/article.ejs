@@ -29,7 +29,7 @@
     回复于:<%= comment.time%><br/>
 <%- comment.connect %><br />
     <% if(user.name==post.name){%>
-    <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment._id%>/<%=comment.time%>">删除</a>
+    <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment.name%>/<%=comment.time%>">删除</a>
     <%}%>
 </p>
 <%})%>

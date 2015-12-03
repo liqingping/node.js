@@ -7,7 +7,7 @@
 </p>
 <p><%- post.post%></p>
 <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
-    转载:<%=post.pz%>
-    <%}%></p>
+转载:<%=post.pz%>
+<%}%></p>
 <%})%>
 <%- include footer%>

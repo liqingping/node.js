@@ -1,4 +1,6 @@
 var crypto=require('crypto');
+var Canvas = require('canvas');
+var email=require('../module/email.js')
 var mongoose=require('mongoose');
 var db = mongoose.createConnection('localhost','blog');
 
@@ -22,7 +24,7 @@ var postmodle=db.model('post',{//创建文章模型
 var usermodle=db.model('user',{//创建用户模型
   name:String,
   password:String,
-  qq:Number
+  qq:String
 });
 
 var date=new Date();
@@ -32,16 +34,20 @@ var re=/<[^<>]+>|herf|http:|update|remove|insert/g;//防止xss攻击
 
 module.exports=function(app){
   app.get('/',function(req,res){
-    postmodle.find({},function(err,posts){
+    var page=req.query.p ? parseInt(req.query.p):1;
+    postmodle.find({},{skip:(page-1)*3},{limit:3},function(err,posts,total){
       if(err){
         posts=[];
       }
     res.render('index', {//主页内容
-      title: '主页',
-      user: req.session.user,
-      posts: posts,
-      success: req.flash('success').toString(),
-      error: req.flash('error').toString()
+       title:'主页',
+      user:req.session.user,
+      posts:posts,
+      page:page,
+      isFirstPage:(page-1)==0,
+      isLastPage:((page-1)*3+posts.length)==total,
+      success:req.flash('success').toString(),
+      error:req.flash('error').toString()
     });
     });
   });
@@ -96,10 +102,10 @@ module.exports=function(app){
       });
     });
   });
-  app.get('/rereg',checkNotLogin);     //忘记密码通过验证qq来进行重设
+  app.get('/rereg',checkNotLogin);     //忘记密码通过邮箱发送验证码来进行重设
   app.get('/rereg',function(req,res){
     res.render('rereg',{
-      title:'验证信息',
+      title:'请输入账号信息',
       reuser:req.session.reuser,
       user:req.session.user,
       success:req.flash('success').toString(),
@@ -119,10 +125,41 @@ module.exports=function(app){
         req.flash('error','输入信息有误！');
         return res.redirect('/rereg')
       }
-      req.flash('success','验证通过！');
+      var s = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+      var code = '';
+      for (var i = 0; i < 4; i++) {
+        code += s.substr(parseInt(Math.random() * 36), 1);
+      };
+      req.session.yzm=code.toLowerCase()
+      email.sent(qq,code,function(err){
+        if(err){
+          req.flash('error','验证邮件发送失败！');
+          return res.redirect('/rereg');
+        }
+      })
+      req.flash('success','验证码已发送至您的邮箱！');
       req.session.reuser=user;
-      res.redirect('/repass');
+      res.redirect('/forget');
     })
+  });
+  app.get('/forget',function(req,res){
+    res.render('forget',{
+      title:'请输入验证码',
+      user:req.session.user,
+      reuser:req.session.reuser,
+      success:req.flash('success').toString(),
+      error:req.flash('error').toString()
+    })
+  });
+  app.post('/forget',function(req,res){
+    var yzm=req.body.yzm.toLowerCase();
+    if(yzm!=req.session.yzm){
+      req.flash('error','验证码错误！')
+      return res.redirect('/forget')
+    }else{
+      req.flash('success','验证成功')
+       return res.redirect('/repass')
+    }
   });
   app.get('/repass',function(req,res){
     res.render('re',{
@@ -207,12 +244,69 @@ module.exports=function(app){
   })
   app.get('/login',checkNotLogin);   //用户登陆
   app.get('/login',function(req,res){
+    var getRandom = function(start,end){
+      return start+Math.random()*(end-start);
+    };
+    var canvas = new Canvas(50,20);
+    var ctx = canvas.getContext('2d');
+    var s = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    var code = '';
+    for(var i=0;i<4;i++){
+      code+= s.substr(parseInt(Math.random()*36),1);
+    }
+    var font= 'bold {FONTSIZE}px Impact';//"Bold Italic {FONTSIZE}px arial,sans-serif";//"13px sans-serif";
+    var start = 3;
+    var colors = ["rgb(255,165,0)","rgb(16,78,139)","rgb(0,139,0)","rgb(255,0,0)"];
+    var trans = {c:[-0.108,0.108],b:[-0.05,0.05]};
+    var fontsizes = [11,12,13,14,15,16,17,18];
+    for(var i in code) {
+      ctx.font = font.replace('{FONTSIZE}', fontsizes[Math.round(Math.random() * 10) % 6]);
+      ctx.fillStyle = colors[Math.round(Math.random() * 10) % 4];//"rgba(0, 0, 200, 0.5)";
+      ctx.fillText(code[i], start, 15, 50);
+      ctx.fillRect();
+      var c = getRandom(trans['c'][0], trans['c'][1]);
+      var b = getRandom(trans['b'][0], trans['b'][1]);
+      start += 11;
+    }
+    var buf=canvas.toDataURL()
+    req.session.login=code.toLowerCase();
     res.render('login',{
       title:'登陆',
       user:req.session.user,
+      img:buf,
       success:req.flash('success').toString(),
       error:req.flash('error').toString()
     })
+  })
+  app.get('/cava',checkNotLogin);
+  app.get('/cava',function(req,res) {
+    var getRandom = function (start, end) {
+      return start + Math.random() * (end - start);
+    };
+    var canvas = new Canvas(50, 20);
+    var ctx = canvas.getContext('2d');
+    var s = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    var code = '';
+    for (var i = 0; i < 4; i++) {
+      code += s.substr(parseInt(Math.random() * 36), 1);
+    }
+    var font = 'bold {FONTSIZE}px Impact';//"Bold Italic {FONTSIZE}px arial,sans-serif";//"13px sans-serif";
+    var start = 3;
+    var colors = ["rgb(255,165,0)", "rgb(16,78,139)", "rgb(0,139,0)", "rgb(255,0,0)"];
+    var trans = {c: [-0.108, 0.108], b: [-0.05, 0.05]};
+    var fontsizes = [11, 12, 13, 14, 15, 16, 17, 18];
+    for (var i in code) {
+      ctx.font = font.replace('{FONTSIZE}', fontsizes[Math.round(Math.random() * 10) % 6]);
+      ctx.fillStyle = colors[Math.round(Math.random() * 10) % 4];//"rgba(0, 0, 200, 0.5)";
+      ctx.fillText(code[i], start, 15, 50);
+      ctx.fillRect();
+      var c = getRandom(trans['c'][0], trans['c'][1]);
+      var b = getRandom(trans['b'][0], trans['b'][1]);
+      start += 11;
+    }
+    var buf = canvas.toDataURL()
+    req.session.login = code.toLowerCase();
+    res.end(buf);
   })
   app.post('/login',checkNotLogin);
   app.post('/login',function(req,res){
@@ -225,6 +319,10 @@ module.exports=function(app){
       }
       if(user.password!=password){
         req.flash('error','密码错误!');
+        return res.redirect('/login')
+      }
+      if(req.body.cap.toLowerCase()!=req.session.login){
+        req.flash('error','验证码错误!');
         return res.redirect('/login')
       }
       req.session.user=user;
@@ -294,7 +392,7 @@ module.exports=function(app){
       })
     })
   });
-
+  app.get('/u/:name/:time/:title',checkLogin);
   app.get('/u/:name/:time/:title',function(req,res){          //进入某一篇文章
     postmodle.findOne({name:req.params.name,time:req.params.time,title:req.params.title},
         function(err,post){
@@ -318,6 +416,7 @@ module.exports=function(app){
       })
     })
   });
+  app.post('/u/:name/:time/:title',checkLogin);
   app.post('/u/:name/:time/:title',function(req,res){           //对文章进行留言
     var date=new Date(),
         time=date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()+' '+date.getHours()+':'+(date.getMinutes()<10?'0'+
@@ -390,7 +489,7 @@ module.exports=function(app){
       res.redirect(url)
     })
   });
-
+  app.get('/zz/:name/:time/:title',checkLogin);
   app.get('/zz/:name/:time/:title',function(req,res){     //转载某用户的文章
     var current=req.session.user;
     var url='/u/'+req.params.name+'/'+req.params.time+'/'+req.params.title
