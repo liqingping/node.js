@@ -1,0 +1,7 @@
+<%- include header %>
+<form method="post">
+    标题:<br/><input type="text" name="title" id="title" value="<%=post.title%>"><br/><br/>
+    内容:<br/><textarea rows="10" cols="30" name="post"><%= post.post %></textarea><br/><br/>
+    <input type="submit" value="保存">
+</form>
+<%- include footer %>

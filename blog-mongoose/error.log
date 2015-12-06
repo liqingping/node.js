@@ -1,0 +1,1880 @@
+[Sat Oct 17 2015 00:01:41 GMT+0800 (CST)]/rereg
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:9
+    7| </form>
+    8| <%- include footer%>
+
+title is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:12:23)
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:53:11
+    at /home/liqp/kf/zjblog 备份/models/user.js:53:17
+    at handleCallback (/home/liqp/kf/zjblog 备份/node_modules/mongodb/lib/utils.js:96:12)
+[Sat Oct 17 2015 00:02:13 GMT+0800 (CST)]/rereg
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:9
+    7| </form>
+    8| <%- include footer%>
+
+title is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:12:23)
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:52:11
+    at /home/liqp/kf/zjblog 备份/models/user.js:53:17
+    at handleCallback (/home/liqp/kf/zjblog 备份/node_modules/mongodb/lib/utils.js:96:12)
+[Sat Oct 17 2015 00:13:14 GMT+0800 (CST)]/re/1
+TypeError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| <%- include header%>
+    2| <form method="post" >
+ >> 3|     账号:<input type="text" name="user" id="user" value="<%= user.name%>" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+    5|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+    6|     <input type="submit" value="注册"></br>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:27)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:57:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:13:16 GMT+0800 (CST)]/re/1
+TypeError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| <%- include header%>
+    2| <form method="post" >
+ >> 3|     账号:<input type="text" name="user" id="user" value="<%= user.name%>" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+    5|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+    6|     <input type="submit" value="注册"></br>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:27)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:57:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:13:20 GMT+0800 (CST)]/re/1
+TypeError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| <%- include header%>
+    2| <form method="post" >
+ >> 3|     账号:<input type="text" name="user" id="user" value="<%= user.name%>" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+    5|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+    6|     <input type="submit" value="注册"></br>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:27)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:57:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:47:50 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:1
+ >> 1| <% if(reuser){%>
+    2| <%- include header%>
+    3| <form method="post" >
+    4|     密码:<input type="password" name="password" id="password"></br></br>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:9:11)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:49:14 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:3
+    1| 
+    2| <%- include header%>
+ >> 3| <% if(reuser){%>
+    4| <form method="post" >
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:11)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:49 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:50 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:50 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:51 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 00:50:56 GMT+0800 (CST)]/re/1
+ReferenceError: /home/liqp/kf/zjblog 备份/views/re.ejs:7
+    5|     密码:<input type="password" name="password" id="password"></br></br>
+    6|     确认:<input type="password" name="repassword" id="repassword"></br></br>
+ >> 7|     <%if(reuser){%>
+    8|     <input type="submit" value="修改"></br>
+    9|     <%}%>
+    10| </form>
+
+reuser is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:45:10)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+[Sat Oct 17 2015 01:29:13 GMT+0800 (CST)]/rereg
+ReferenceError: /home/liqp/kf/zjblog 备份/views/rereg.ejs:13
+
+
+user is not defined
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:15:10)
+    at eval (eval at <anonymous> (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:40:9)
+    at returnedFn (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/liqp/kf/zjblog 备份/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/liqp/kf/zjblog 备份/node_modules/express/lib/response.js:801:7)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:31:9
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+[Sat Oct 17 2015 01:29:53 GMT+0800 (CST)]/re/1
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:58:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 01:30:59 GMT+0800 (CST)]/re/1
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:59:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 01:45:13 GMT+0800 (CST)]/re/1
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:59:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 01:47:08 GMT+0800 (CST)]/re/liqp
+ReferenceError: reuser is not defined
+    at /home/liqp/kf/zjblog 备份/routes/index.js:59:8
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/liqp/kf/zjblog 备份/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+[Sat Oct 17 2015 17:58:14 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:153:21
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:05:38 GMT+0800 (CST)]/passedit
+TypeError: undefined is not a function
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+[Sat Oct 17 2015 18:05:45 GMT+0800 (CST)]/passedit
+TypeError: undefined is not a function
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+[Sat Oct 17 2015 18:06:05 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:06:21 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:155:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:373:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:07:23 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:12 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:21 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:33 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:10:43 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:168:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:15:26 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:22
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:17:00 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:22
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:21:16 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:21:48 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:22:55 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:154:25
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:372:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sat Oct 17 2015 18:25:07 GMT+0800 (CST)]/p
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:119:16)
+    at /home/liqp/kf/zjblog 备份/routes/index.js:167:34
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/liqp/kf/zjblog 备份/routes/index.js:371:5)
+    at callbacks (/home/liqp/kf/zjblog 备份/node_modules/express/lib/router/index.js:164:37)
+[Sun Nov 29 2015 22:34:35 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:12:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:35:16 GMT+0800 (CST)]/reg
+TypeError: User.get is not a function
+    at /home/li/git/blog /routes/index.js:54:10
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkNotLogin (/home/li/git/blog /routes/index.js:377:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+[Sun Nov 29 2015 22:39:42 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:39:45 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:45:24 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:52:26 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:53:31 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:53:38 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:53:57 GMT+0800 (CST)]/post
+ReferenceError: Post is not defined
+    at /home/li/git/blog /routes/index.js:229:18
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:385:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+[Sun Nov 29 2015 22:54:02 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:54:22 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:54:39 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:55:02 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 22:59:55 GMT+0800 (CST)]/login
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:203:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkNotLogin (/home/li/git/blog /routes/index.js:397:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+[Sun Nov 29 2015 23:01:50 GMT+0800 (CST)]/u/dfdf
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:255:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+[Sun Nov 29 2015 23:02:04 GMT+0800 (CST)]/post
+ReferenceError: postmodleost is not defined
+    at /home/li/git/blog /routes/index.js:229:18
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:390:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+[Sun Nov 29 2015 23:02:49 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:04:32 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:04:34 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:04:36 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:04:37 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:04:38 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:04:38 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:04:48 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:25:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:05:48 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:26:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:05:50 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:26:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Sun Nov 29 2015 23:06:21 GMT+0800 (CST)]/
+TypeError: /home/li/git/blog /views/index.ejs:9
+    7| </p>
+    8| <p><%- post.post%></p>
+ >> 9| <p class="foot">阅读:<%= post.pv%> | 评论:<%= post.comments.length%><%if(post.pz){%>|
+    10| 转载:<%=post.pz%>
+    11| <%}%></p>
+    12| <%})%>
+
+Cannot read property 'length' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:68:36)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:43:14)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:26:9)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Mon Nov 30 2015 15:36:30 GMT+0800 (CST)]/passedit
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:196:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:408:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+[Mon Nov 30 2015 15:38:10 GMT+0800 (CST)]/passedit
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:196:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:408:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+[Mon Nov 30 2015 15:38:45 GMT+0800 (CST)]/passedit
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:196:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:408:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+[Mon Nov 30 2015 15:42:37 GMT+0800 (CST)]/u/liqp
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:273:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+[Mon Nov 30 2015 15:42:41 GMT+0800 (CST)]/edit/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: Post is not defined
+    at /home/li/git/blog /routes/index.js:335:3
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:408:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+[Mon Nov 30 2015 15:42:44 GMT+0800 (CST)]/u/liqp
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:273:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+[Mon Nov 30 2015 16:03:27 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:323:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 16:03:45 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:323:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 16:18:00 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:330:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 16:20:09 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:330:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:28:26 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:323:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:28:38 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:323:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:30:54 GMT+0800 (CST)]/u/liqp
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:269:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+[Mon Nov 30 2015 18:31:09 GMT+0800 (CST)]/u/1111/2015-11-30%2018:30:32/qqaqa
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:318:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:32:34 GMT+0800 (CST)]/u/1111
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:270:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+[Mon Nov 30 2015 18:32:43 GMT+0800 (CST)]/u/liqp/2015-11-30%2018:32:17/www
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:319:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:33:48 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:319:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:35:59 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:319:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:36:08 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:319:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:36:12 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+ReferenceError: comments is not defined
+    at /home/li/git/blog /routes/index.js:319:8
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+[Mon Nov 30 2015 18:45:58 GMT+0800 (CST)]/u/1111
+ReferenceError: User is not defined
+    at /home/li/git/blog /routes/index.js:270:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/git/blog /node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/git/blog /node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/git/blog /node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+[Mon Nov 30 2015 21:26:55 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:70:16)
+    at /home/li/git/blog /routes/index.js:180:25
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:419:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+[Mon Nov 30 2015 21:28:27 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:70:16)
+    at /home/li/git/blog /routes/index.js:193:58
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:418:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+[Mon Nov 30 2015 21:35:46 GMT+0800 (CST)]/passedit
+TypeError: HashUpdate fail
+    at TypeError (native)
+    at Hash.update (crypto.js:70:16)
+    at /home/li/git/blog /routes/index.js:193:58
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:418:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/git/blog /node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/git/blog /node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/git/blog /node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+[Mon Nov 30 2015 21:54:20 GMT+0800 (CST)]/reco/liqp/dfsdf/1111/2015-11-30%2018:40:19
+ReferenceError: Post is not defined
+    at /home/li/git/blog /routes/index.js:426:5
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at pass (/home/li/git/blog /node_modules/express/lib/router/index.js:145:5)
+    at nextRoute (/home/li/git/blog /node_modules/express/lib/router/index.js:100:7)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:167:11)
+    at checkLogin (/home/li/git/blog /routes/index.js:441:5)
+    at callbacks (/home/li/git/blog /node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:138:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+    at param (/home/li/git/blog /node_modules/express/lib/router/index.js:135:11)
+[Mon Nov 30 2015 22:46:01 GMT+0800 (CST)]/u/1111/2015-11-30%2021:55:31/[%E8%BD%AC%E8%87%AAliqp]www
+TypeError: /home/li/git/blog /views/article.ejs:31
+    29|     回复于:<%= comment.time%><br/>
+    30| <%- comment.connect %><br />
+ >> 31|     <% if(user.name==post.name){%>
+    32|     <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment.name%>/<%=comment.time%>">删除</a>
+    33|     <%}%>
+    34| </p>
+
+Cannot read property 'name' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:115:15)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:101:22)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:313:11)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Mon Nov 30 2015 22:46:10 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+TypeError: /home/li/git/blog /views/article.ejs:31
+    29|     回复于:<%= comment.time%><br/>
+    30| <%- comment.connect %><br />
+ >> 31|     <% if(user.name==post.name){%>
+    32|     <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment.name%>/<%=comment.time%>">删除</a>
+    33|     <%}%>
+    34| </p>
+
+Cannot read property 'name' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:115:15)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:101:22)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:313:11)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Mon Nov 30 2015 22:46:17 GMT+0800 (CST)]/u/liqp/2015-11-30%2015:31:7/dfsdf
+TypeError: /home/li/git/blog /views/article.ejs:31
+    29|     回复于:<%= comment.time%><br/>
+    30| <%- comment.connect %><br />
+ >> 31|     <% if(user.name==post.name){%>
+    32|     <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment.name%>/<%=comment.time%>">删除</a>
+    33|     <%}%>
+    34| </p>
+
+Cannot read property 'name' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:115:15)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:101:22)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:313:11)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Mon Nov 30 2015 22:46:19 GMT+0800 (CST)]/u/1111/2015-11-30%2021:55:31/[%E8%BD%AC%E8%87%AAliqp]www
+TypeError: /home/li/git/blog /views/article.ejs:31
+    29|     回复于:<%= comment.time%><br/>
+    30| <%- comment.connect %><br />
+ >> 31|     <% if(user.name==post.name){%>
+    32|     <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment.name%>/<%=comment.time%>">删除</a>
+    33|     <%}%>
+    34| </p>
+
+Cannot read property 'name' of undefined
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:115:15)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/git/blog /node_modules/ejs/lib/ejs.js:464:12), <anonymous>:101:22)
+    at returnedFn (/home/li/git/blog /node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/git/blog /node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/git/blog /node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/git/blog /node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/git/blog /node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/git/blog /routes/index.js:313:11)
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/git/blog /node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Tue Dec 01 2015 14:38:20 GMT+0800 (CST)]/u/1111/2015-11-30%2021:55:31/%5B%E8%BD%AC%E8%87%AAliqp%5Dwww
+TypeError: /home/li/1/blog -mongoose/views/article.ejs:31
+    29|     回复于:<%= comment.time%><br/>
+    30| <%- comment.connect %><br />
+ >> 31|     <% if(user.name==post.name){%>
+    32|     <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment._id%>/<%=comment.time%>">删除</a>
+    33|     <%}%>
+    34| </p>
+
+Cannot read property 'name' of undefined
+    at eval (eval at <anonymous> (/home/li/1/blog -mongoose/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:126:15)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (/home/li/1/blog -mongoose/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:112:22)
+    at returnedFn (/home/li/1/blog -mongoose/node_modules/ejs/lib/ejs.js:493:17)
+    at View.exports.renderFile [as engine] (/home/li/1/blog -mongoose/node_modules/ejs/lib/ejs.js:350:31)
+    at View.render (/home/li/1/blog -mongoose/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/li/1/blog -mongoose/node_modules/express/lib/application.js:504:10)
+    at ServerResponse.res.render (/home/li/1/blog -mongoose/node_modules/express/lib/response.js:801:7)
+    at Query.<anonymous> (/home/li/1/blog -mongoose/routes/index.js:316:11)
+    at /home/li/1/blog -mongoose/node_modules/mongoose/node_modules/kareem/index.js:177:19
+    at /home/li/1/blog -mongoose/node_modules/mongoose/node_modules/kareem/index.js:109:16
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+[Thu Dec 03 2015 21:38:12 GMT+0800 (CST)]/forget
+TypeError: Cannot read property 'yzm' of undefined
+    at /home/li/1/blog -mongoose/routes/index.js:155:16
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 21:45:10 GMT+0800 (CST)]/forget
+TypeError: Cannot read property 'yzm' of undefined
+    at /home/li/1/blog -mongoose/routes/index.js:155:16
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 21:46:46 GMT+0800 (CST)]/forget
+TypeError: Cannot read property 'yzm' of undefined
+    at /home/li/1/blog -mongoose/routes/index.js:155:21
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 21:51:03 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:160:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 21:51:29 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:160:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 21:52:15 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:160:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 22:04:49 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:160:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 22:05:53 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:161:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 22:06:25 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:161:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 22:08:41 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:158:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 22:08:54 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:158:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 22:09:52 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:158:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)
+[Thu Dec 03 2015 22:10:32 GMT+0800 (CST)]/forget
+TypeError: res.flash is not a function
+    at /home/li/1/blog -mongoose/routes/index.js:158:9
+    at callbacks (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/home/li/1/blog -mongoose/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at next (/home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:318:9)
+    at /home/li/1/blog -mongoose/node_modules/express/node_modules/connect/lib/middleware/session.js:342:9
+    at /home/li/1/blog -mongoose/node_modules/connect-mongo/lib/connect-mongo.js:305:11
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/collection.js:1322:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/li/1/blog -mongoose/node_modules/mongodb/lib/cursor.js:638:5
+    at handleCallback (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:244:5)
+    at nextFunction (/home/li/1/blog -mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:743:5)

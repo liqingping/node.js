@@ -1,0 +1,38 @@
+<%- include header%>
+<p class="info">
+    作者:<a href="/u/<%= post.name%>"><%= post.name%></a>
+    日期:<a><%= post.time%></a>
+</p>
+<p>
+    <%if(post.yz){%>
+    <a href="/u/<%=post.yz%>">@<%= post.yz%>/</a>
+    <%}%>
+    <%- post.post%></p>
+<% if(user&&(user.name==post.name)) {%>
+<p class="foot">
+    <%if(!post.yz){%>
+<a href="/edit/<%= post.name%>/<%= post.time%>/<%= post.title%>">编辑</a>||
+    <%}%>
+<a href="/remove/<%= post.name%>/<%= post.time%>/<%= post.title%>">删除</a>
+    </p>
+<%} else if(user&&(user.name!=post.name)){%>
+<form method="post">
+    <a href="/zz/<%=post.name%>/<%= post.time%>/<%= post.title%>">转载</a><br/>
+    内容:<br/><textarea name="connect" rows="5" cols="20"></textarea><br/>
+    <input type="submit" value="留言">
+</form>
+<%}%>
+
+<% post.comments.forEach(function(comment,index){%>
+<p class="liuyan">
+    来自:<a href="/u/<%= comment.name%>"><%= comment.name %></a>
+    回复于:<%= comment.time%><br/>
+<%- comment.connect %><br />
+    <% if(user.name==post.name){%>
+    <a href="/reco/<%=post.name%>/<%= post.title%>/<%=comment.name%>/<%=comment.time%>">删除</a>
+    <%}%>
+</p>
+<%})%>
+
+
+<%- include footer%>
